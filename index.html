@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Madhumitha T - Software Engineer & Full Stack Developer">
+
+    <title>Madhumitha T | Software Engineer</title>
+
+    <!-- Google Fonts - Poppins for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo/Brand -->
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">MT</span>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#strengths" class="nav-link">Strengths</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#internships" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#interests" class="nav-link">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <!-- Profile Image -->
+            <div class="hero-image">
+                <img src="images/madhu.jpeg" alt="Madhumitha T" class="profile-img">
+            </div>
+
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Madhumitha T</h1>
+                <h2 class="hero-role">Software Engineer | Full Stack Developer</h2>
+                <p class="hero-location">
+                    <i class="fas fa-map-marker-alt"></i> Kallakurichi, Tamil Nadu, India
+                </p>
+
+                <!-- Social Links -->
+                <div class="hero-social">
+                    <a href="https://github.com/madumitha-web" class="social-link" aria-label="GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/madhumitha2707" class="social-link" aria-label="LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:madhumitha270008@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+916374400751" class="social-link" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#" class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        <strong>Full Stack Developer</strong> skilled in building responsive web applications using
+                        JavaScript, Node.js, and MongoDB with cloud integration on AWS. Experienced in developing
+                        RESTful APIs and implementing modern front-end solutions with React.js and Bootstrap.
+                    </p>
+                    <p>
+                        Currently pursuing B.E in Computer Science & Engineering at Mahendra Institute of Technology
+                        with a CGPA of 9.0. I'm passionate about creating efficient, scalable solutions and staying
+                        updated with the latest technologies and industry best practices.
+                    </p>
+                    <p>
+                        I have hands-on experience with IoT integration, cloud architecture using AWS services
+                        (EC2, IoT Core, S3), and building real-time web applications. I'm always eager to learn
+                        and take on new challenges in software development.
+                    </p>
+                </div>
+
+                <!-- Quick Info Cards -->
+                <div class="about-info">
+                    <div class="info-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Developer</h4>
+                        <p>Full Stack Development</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Learner</h4>
+                        <p>Always Growing</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Problem Solver</h4>
+                        <p>Creative Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== STRENGTHS SECTION ==================== -->
+    <section class="section section-alt" id="strengths">
+        <div class="container">
+            <h2 class="section-title">My Strengths</h2>
+            <div class="strengths-grid">
+                <!-- Strength Card 1: Learning -->
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Continuous Learning</h3>
+                    <p>
+                        Committed to lifelong learning and staying current with emerging technologies.
+                        I actively pursue new knowledge through courses, documentation, and hands-on projects.
+                    </p>
+                </div>
+
+                <!-- Strength Card 2: Teamwork -->
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Teamwork</h3>
+                    <p>
+                        Excel in collaborative environments, valuing diverse perspectives and effective
+                        communication. I believe great products are built by great teams working together.
+                    </p>
+                </div>
+
+                <!-- Strength Card 3: Innovation -->
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>
+                        Passionate about finding creative solutions to complex problems. I embrace new
+                        approaches and technologies to deliver innovative and efficient solutions.
+                    </p>
+                </div>
+
+                <!-- Strength Card 4: Work Ethics -->
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Work Ethics</h3>
+                    <p>
+                        Strong commitment to integrity, responsibility, and delivering quality work.
+                        I take ownership of my tasks and consistently meet deadlines with excellence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <!-- Education Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2026</span>
+                        <h3>B.E - Computer Science & Engineering</h3>
+                        <h4>Mahendra Institute of Technology</h4>
+                        <p>
+                            Focused on software development, data structures, algorithms, and web technologies.
+                            Actively participating in technical events and building practical projects.
+                        </p>
+                        <span class="timeline-badge">CGPA: 9.0</span>
+                    </div>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2022</span>
+                        <h3>Higher Secondary Education (12th)</h3>
+                        <h4>Sri Vivekananda Hr Sec School</h4>
+                        <p>
+                            Completed higher secondary education with a focus on Science stream
+                            (Physics, Chemistry, Mathematics, Computer Science).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <!-- Front-end -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-palette"></i> Front-end
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back-end -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i> Back-end
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-users"></i> Soft Skills
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Management</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Interpersonal</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-crown"></i>
+                            <span>Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS SECTION ==================== -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <!-- Certification 1 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>IBM Full-Stack JavaScript Developer</h3>
+                        <p class="cert-issuer">IBM - Coursera</p>
+                    </div>
+                    <a href="#" class="https://drive.google.com/file/d/167S3dPy2qZg449UBQNWTIGnQ5dhIdLNB/view?usp=drivesdk" aria-label="View Certificate">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Architecting Solutions on AWS</h3>
+                        <p class="cert-issuer">Amazon Web Services - Coursera</p>
+                    </div>
+                    <a href="#" class="https://drive.google.com/file/d/1jFd-S8rJl2jkvIoaektGGbktdvg9xGzK/view?usp=drivesdk" aria-label="View Certificate">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Programming Fundamentals using Python</h3>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                    </div>
+                    <a href="#" class="cert-link" aria-label="View Certificate">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="section section-alt" id="internships">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="internships-grid">
+                <!-- Project 1 -->
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <div class="company-logo">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="internship-meta">
+                            <h3>Book Store Management System</h3>
+                            <h4>Full Stack Web Application</h4>
+                            <p class="internship-duration">
+                                <i class="fas fa-calendar-alt"></i> May 2023 - Jul 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="internship-body">
+                        <p>
+                            Developed a comprehensive book store management system with full CRUD operations
+                            for managing book inventory, user authentication, and order processing.
+                        </p>
+                        <ul class="internship-highlights">
+                            <li>Built RESTful APIs for backend operations</li>
+                            <li>Implemented user authentication and authorization</li>
+                            <li>Created responsive front-end interface</li>
+                            <li>Managed data persistence with JSON</li>
+                        </ul>
+                        <div class="internship-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <div class="company-logo">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="internship-meta">
+                            <h3>Smart Parking System</h3>
+                            <h4>IoT & Cloud Integration</h4>
+                            <p class="internship-duration">
+                                <i class="fas fa-calendar-alt"></i> Academic Project
+                            </p>
+                        </div>
+                    </div>
+                    <div class="internship-body">
+                        <p>
+                            Built a real-time web application with IoT integration for smart parking management,
+                            utilizing AWS cloud architecture for scalable and reliable performance.
+                        </p>
+                        <ul class="internship-highlights">
+                            <li>Integrated IoT sensors for real-time parking data</li>
+                            <li>Deployed on AWS using EC2 instances</li>
+                            <li>Utilized AWS IoT Core for device communication</li>
+                            <li>Implemented S3 for data storage</li>
+                        </ul>
+                        <div class="internship-tech">
+                            <span class="tech-tag">AWS EC2</span>
+                            <span class="tech-tag">AWS IoT Core</span>
+                            <span class="tech-tag">AWS S3</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== INTERESTS SECTION ==================== -->
+    <section class="section" id="interests">
+        <div class="container">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Coding</h3>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Reading</h3>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music</h3>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Travel</h3>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Gaming</h3>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Art</h3>
+                </div>
+                <div class="interest-item">
+                    <div class="interest-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Fitness</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+                Feel free to reach out for collaborations, opportunities, or just a friendly hello!
+            </p>
+
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:madhumitha270008@gmail.com">madhumitha270008@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+916374400751">+91 6374400751</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Kallakurichi, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Madhumitha T</h3>
+                    <p>Software Engineer | Full Stack Developer</p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://github.com/madumitha-web" class="social-link" aria-label="GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/madhumitha2707" class="social-link" aria-label="LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="tel:+916374400751" class="social-link" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:madhumitha270008@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Madhumitha T. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP BUTTON ==================== -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
