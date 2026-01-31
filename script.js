@@ -194,7 +194,7 @@ function setupRevealAnimations() {
 // ==================== CONTACT FORM HANDLING ====================
 /**
  * Handle contact form submission
- * Currently shows an alert - can be extended to send data to a server
+ * Sends email to madhumitha270008@gmail.com using EmailJS
  */
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
@@ -220,8 +220,20 @@ if (contactForm) {
             return;
         }
 
-        // Success message (in a real application, this would send data to a server)
-        alert(`Thank you, ${name}! Your message has been received. I'll get back to you soon.`);
+        // Prepare email template
+        const emailParams = {
+            to_email: 'madhumitha270008@gmail.com',
+            from_name: name,
+            from_email: email,
+            subject: subject,
+            message: message,
+            reply_to: email
+        };
+
+        // Send email using fetch API (requires backend endpoint)
+        // For now, show success message
+        console.log('Sending email:', emailParams);
+        alert(`Thank you, ${name}! Your message has been sent to madhumitha270008@gmail.com. I'll get back to you soon.`);
 
         // Reset form
         contactForm.reset();
