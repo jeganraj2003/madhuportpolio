@@ -367,29 +367,6 @@ img {
     color: var(--primary-purple);
 }
 
-/* Scroll down indicator */
-.scroll-down {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var(--text-white);
-    font-size: 1.5rem;
-    animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateX(-50%) translateY(0);
-    }
-    40% {
-        transform: translateX(-50%) translateY(-10px);
-    }
-    60% {
-        transform: translateX(-50%) translateY(-5px);
-    }
-}
-
 /* ==================== ABOUT SECTION ==================== */
 .about-content {
     display: grid;
