@@ -43,6 +43,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 body {
@@ -283,6 +284,7 @@ img {
     border: 5px solid rgba(255, 255, 255, 0.5);
     box-shadow: var(--shadow-lg);
     transition: var(--transition);
+    margin-top: 20;
 }
 
 .profile-img:hover {
