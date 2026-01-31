@@ -275,8 +275,8 @@ img {
 
 /* Profile image styling */
 .profile-img {
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     border-radius: var(--radius-full);
     object-fit: contain;
     object-position: bottom;
