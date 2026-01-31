@@ -10,7 +10,6 @@ const navbar = document.getElementById('navbar');
 const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.getElementById('nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
-const scrollTopBtn = document.getElementById('scroll-top');
 const contactForm = document.getElementById('contact-form');
 const sections = document.querySelectorAll('.section');
 
@@ -123,29 +122,6 @@ function updateActiveNavLink() {
         }
     }
 }
-
-// ==================== SCROLL TO TOP BUTTON ====================
-/**
- * Show/hide scroll-to-top button based on scroll position
- * Button appears after scrolling down 300px
- */
-function toggleScrollTopButton() {
-    if (window.scrollY > 300) {
-        scrollTopBtn.classList.add('visible');
-    } else {
-        scrollTopBtn.classList.remove('visible');
-    }
-}
-
-/**
- * Scroll to top of page when button is clicked
- */
-scrollTopBtn.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
 
 // ==================== NAVBAR BACKGROUND ON SCROLL ====================
 /**

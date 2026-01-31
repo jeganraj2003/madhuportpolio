@@ -1055,39 +1055,6 @@ img {
     font-size: 0.9rem;
 }
 
-/* ==================== SCROLL TO TOP BUTTON ==================== */
-.scroll-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: var(--radius-full);
-    background: var(--gradient);
-    color: var(--text-white);
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: var(--transition);
-    box-shadow: var(--shadow-md);
-    z-index: 999;
-}
-
-.scroll-top.visible {
-    opacity: 1;
-    visibility: visible;
-}
-
-.scroll-top:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
-}
-
 /* ==================== ANIMATIONS ==================== */
 /* Reveal animation for sections */
 .reveal {
