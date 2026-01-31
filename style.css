@@ -278,7 +278,8 @@ img {
     width: 280px;
     height: 280px;
     border-radius: var(--radius-full);
-    object-fit: cover;
+    object-fit: contain;
+    object-position: bottom;
     border: 5px solid rgba(255, 255, 255, 0.5);
     box-shadow: var(--shadow-lg);
     transition: var(--transition);
