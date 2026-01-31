@@ -893,12 +893,15 @@ img {
     grid-template-columns: 1fr 2fr;
     gap: 50px;
     align-items: start;
+    justify-items: center;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
+    width: 100%;
 }
 
 .contact-card {
@@ -909,6 +912,7 @@ img {
     align-items: center;
     gap: 20px;
     transition: var(--transition);
+    width: 100%;
 }
 
 .contact-card:hover {
